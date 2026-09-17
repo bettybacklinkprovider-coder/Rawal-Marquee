@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, .font-serif-title {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+.bg-ivory {
+  background-color: #FAF8F5;
+}
+
+.bg-ivory-dark {
+  background-color: #F3EFEA;
+}
+
+.bg-charcoal {
+  background-color: #16181B;
+}
+
+.text-charcoal {
+  color: #16181B;
+}
+
+.text-gold {
+  color: #C59B27;
+}
+
+.text-gold-light {
+  color: #E2BD5A;
+}
+
+.bg-gold {
+  background-color: #C59B27;
+}
+
+.bg-gold-dark {
+  background-color: #A37E19;
+}
+
+.border-gold {
+  border-color: #C59B27;
+}
+
+.border-gold-light {
+  border-color: #E6D08E;
+}
+
+/* Luxury gold gradient buttons & borders */
+.btn-gold {
+  background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+  color: #111;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #E2C044 0%, #C89613 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(212, 175, 55, 0.4);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 50%, #AA771C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #16181B;
+}
+::-webkit-scrollbar-thumb {
+  background: #C59B27;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E2BD5A;
+}

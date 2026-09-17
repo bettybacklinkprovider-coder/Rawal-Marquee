@@ -1,0 +1,6 @@
+{
+  "name": "Rawal Marquee",
+  "description": "A beautiful and elegant venue for weddings, receptions, engagements, family celebrations and special events in Bani Gala, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
